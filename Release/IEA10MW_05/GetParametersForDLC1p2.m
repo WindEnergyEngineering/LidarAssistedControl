@@ -19,9 +19,9 @@ PreProcessingVariation  = { 'URef',[4:2:24],'%02d';
                             'Seed',[1:6]   ,'%02d'};
 
 % template files
-InputFiles{1,1}         = 'IEA-15-240-RWT-Monopile.fst';            % main file
-InputFiles{2,1}         = 'IEA-15-240-RWT-Monopile_ElastoDyn.dat';  % to adjust initial conditions
-InputFiles{3,1}         = 'IEA-15-240-RWT_InflowFile.dat';          % to adjust wind speed
+InputFiles{1,1}         = 'IEA-10.0-198-RWT.fst';            % main file
+InputFiles{2,1}         = 'IEA-10.0-198-RWT_ElastoDyn.dat';  % to adjust initial conditions
+InputFiles{3,1}         = 'IEA-10.0-198-RWT_InflowFile.dat'; % to adjust wind speed
 
 % new files to be modified
 InputFiles{1,2}         = '<SimulationName>.fst';
